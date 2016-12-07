@@ -4,8 +4,53 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>CSS Typography</title>
 <style type="text/css">
-
-
+a {
+ color: #207EBF;
+  text-decoration: none;
+  font-weight: bold;
+border-bottom: 2px solid #F60;
+}
+  
+  a:visited {
+ color: #6E97BF;
+}
+  
+  a:hover {
+ color: #FFF;
+ background-color: #6E97BF;
+ border-bottom-color: #6E97BF;
+}
+  
+  #legal a {
+ color: #666666;
+ border: none;
+ background: url(images/email.gif) no-repeat left center;
+    padding-left: 20px;
+margin-left: 10px;
+}
+  
+  #resources a {
+ border-bottom: none;
+     padding-right: 22px;
+}
+  
+ a[href^='http://'] {
+ background: url(images/globe.png) no-repeat right top;
+} 
+  a[href$='.pdf'] {
+ background: url(images/acrobat.png) no-repeat right top;
+}
+a[href$='.zip'] {
+ background: url(images/zip.png) no-repeat right top;
+}
+a[href$='.doc'] {
+ background: url(images/word.png) no-repeat right top;
+}
+  
+  #resources a:hover {
+ color: #FFF;
+ background-color: #6E97BF;
+}
 </style>	
 <link href="main.css" rel="stylesheet" type="text/css" />
 </head>
