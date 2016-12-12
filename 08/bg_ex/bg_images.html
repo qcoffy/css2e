@@ -1,110 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <title>Background Images</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-
-  /* reset css */
-html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, var, form, fieldset, blockquote {
- padding: 0;
- margin: 0;
- font-size: 100%;
- font-weight: normal;
-}
-table { border-collapse: collapse; border-spacing: 0; }
-td, th, caption { font-weight: normal; text-align: left; }
-img, fieldset { border: 0; }
-ol { padding-left: 1.4em; list-style: decimal; }
-ul { padding-left: 1.4em; list-style:square; }
-q:before, q:after { content:''; }
-/* end reset */
-
-#wrapper {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-  overflow: hidden; /* contain float */
-}
-
-#main {
-	float: right;
-	width: 565px;
-	margin-right: 15px;
-	padding-top: 25px;
-}
-
-* html #main {
-  display:inline; /* ie 6 double margin bug */
-}
-#announcement {
-	margin-right: 600px;
-	margin-left: 20px;
- background: url(images/scroll_middle.jpg) repeat-y center top;
- margin-top: 115px;
-}
-	
-}
-
-#copyright {
-	clear: both;
-	font: bold 12px Tahoma, Geneva, sans-serif;
-	color: #65747E;
-	padding: 5px;
-  margin: 0 15px;
-	border: 1px dotted #98AFBE;
-  border-left: none;
-  border-right: none;
-}
-
-
-#banner h1 {
-	font: normal 48px Georgia, "Times New Roman", Times, serif;
-	text-align: right;
-  color: #272D32;
-}
-
-#main h2 {
-	font: 24px Tahoma, Geneva, sans-serif;
-	margin-bottom: 15px;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-#main p {
-	font: 14px Tahoma, Geneva, sans-serif;
-	color: #323A3F;
-	margin-bottom: 20px;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-
-#announcement h2 {
-	font: italic bold normal 20px Georgia, "Times New Roman", Times, serif;
-	text-align: center;
-	color: #323A3F;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin-bottom: 18px;
-  background: url(images/scroll_top.jpg) no-repeat center top;
-  padding-top: 70px; 
-   zoom: 1;
-}
-#announcement ul {
-	font: 14px Tahoma, Geneva, sans-serif;
-}
- 
-#announcement .last {
- background: url(images/scroll_bottom.jpg) no-repeat center bottom;
- padding-bottom: 65px;
-}
-
-</style>
+<link href="styles.css" rel="stylesheet">
 </head>
 <body>
-<div id="wrapper">
-<div id="banner">
+<div class="wrapper">
+<div class="banner">
 <h1>CSS: The Missing Manual</h1>
 </div>
-<div id="main">
+<div class="main">
 <h2>Lorem Ipsum Dolor Sat</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
@@ -113,9 +19,9 @@ q:before, q:after { content:''; }
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
 <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 </div>
-<div id="announcement">
+<div class="announcement">
 <h2>Announcements</h2>
-<ul class="last">
+<ul>
 <li>Lorem Ipsum Dolor Sat</li>
 <li>Quis nostrum exercitationem ullam</li>
 <li>Eius modi tempora incidunt</li>
@@ -125,8 +31,8 @@ q:before, q:after { content:''; }
 
 </ul>
 </div>
-<div id="copyright">
-<p>Copyright 2010, Lorem Ipsum Corporation</p>
+<div class="copyright">
+<p>Copyright 2015, Lorem Ipsum Corporation</p>
 </div>
 </div>
 </body>
